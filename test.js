@@ -1,18 +1,11 @@
-// declares variable
-var myAge=49;
+// declares a variable
+var myAge = 26;
 
-// evaluates value of variable
-
-if (myAge > 30){
-  // writes if varialbe is greater than 30
-	document.write("you are over 30!");
-} else if (myAge > 20){
-  // writes if varialbe is greater than 20
-	document.write("you are over 20!");
-} else if (myAge > 10){
-	// writes if varialbe is greater than 10
-	document.write("you are over 10!");
+// evaluates variable
+if (myAge < 18 || myAge > 30 || myAge === 25) {
+	// writes if variable meets condition
+	document.write("You ain't coming!");
 } else {
-	// writes if varialbe is equal or less than 10
-	document.write("you are not over 10!");
+	// writes for all other conditions
+	document.write("You can come, you cool dude.");
 }
