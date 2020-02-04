@@ -1,11 +1,18 @@
 // declares variable
-var youLikeMeat = true;
+var myAge=49;
 
-// evalutates whether variable is true or false
-if (youLikeMeat) {
-	// if true
-	document.write("you like meat");
+// evaluates value of variable
+
+if (myAge > 30){
+  // writes if varialbe is greater than 30
+	document.write("you are over 30!");
+} else if (myAge > 20){
+  // writes if varialbe is greater than 20
+	document.write("you are over 20!");
+} else if (myAge > 10){
+	// writes if varialbe is greater than 10
+	document.write("you are over 10!");
 } else {
-	// if false
-	document.write("you hate meat");
+	// writes if varialbe is equal or less than 10
+	document.write("you are not over 10!");
 }
